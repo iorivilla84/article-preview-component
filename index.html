@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Tooltip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <article>
+                <div class="article-wrapper">
+                    <div class="article-image-wrapper">
+                        <img class="article-image" src="./assets/images/drawers.jpg" alt="drawers-img">
+                    </div>
+                    <div class="article-content">
+                        <header>
+                            <h2 class="title">
+                                Shift the overall look and feel by adding these wonderful touches
+                                to furniture in your home
+                            </h2>
+                        </header>
+                        <section>
+                            <p class="text-content">
+                                Ever been in a room and felt like something was missing? <br/>
+                                Perhaps it felt slightly bare and uninviting. I've got some
+                                simple tips to help you make any room feel complete.
+                            </p>
+                        </section>
+    
+                        <footer class="article-author-wrapper">
+                            <div class="article-author">
+                                <div class="article-auth-container">
+                                    <img class="article-auth-img" src="./assets/images/avatar-michelle.jpg" alt="">
+                                </div>
+                                <div class="article-auth-details">
+                                    <h3 class="author-title">Michelle Appleton</h3>
+                                    <p class="article-time-stamp"></p>
+                                </div>                            
+                            </div>
+                            <div class="article-sharing-wrapper">
+                                <button class="share-button">
+                                    <img src="./assets/images/icon-share.svg" alt="">
+                                </button>
+
+                                <ul class="sharing-tooltip">
+                                    <li class="share-link">SHARE</li>
+                                    <li class="share-link">
+                                        <img src="./assets/images/icon-facebook.svg" alt="">
+                                    </li>
+                                    <li class="share-link">
+                                        <img src="./assets/images/icon-twitter.svg" alt="">
+                                    </li>
+                                    <li class="share-link">
+                                        <img src="./assets/images/icon-pinterest.svg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </footer>
+    
+                        <div class="article-sharing-wrapper-mobile" data-is-open="false">
+                            <ul class="sharing-tooltip-mobile">
+                                <li class="share-link">SHARE</li>
+                                <li class="share-link">
+                                    <img src="./assets/images/icon-facebook.svg" alt="">
+                                </li>
+                                <li class="share-link">
+                                    <img src="./assets/images/icon-twitter.svg" alt="">
+                                </li>
+                                <li class="share-link">
+                                    <img src="./assets/images/icon-pinterest.svg" alt="">
+                                </li>
+                                <li class="share-link">
+                                    <button class="share-button-mobile">
+                                        <img src="./assets/images/icon-share.svg" alt="">
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <script src="js/main.js" type="module" defer></script>
+</body>
+</html>

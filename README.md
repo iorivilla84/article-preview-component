@@ -29,6 +29,7 @@ A responsive and accessible article preview layout with share functionality, bui
 
 - **HTML5** – Semantic markup
 - **CSS (with nesting)** – Organized styles using native nesting (CSS or Sass-like)
+- **Bootstrap 5** – Responsive grid, buttons, and layout utilities
 - **JavaScript ES6** – Modular approach using `import`/`export`
 - **Netlify** – Hosting and automatic CI/CD
 - **GitHub** – Source control and integration with Netlify
